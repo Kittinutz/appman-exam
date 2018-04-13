@@ -1,4 +1,5 @@
 :global {
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
     // global style here
     .logo-spin {
         animation: App-logo-spin infinite 3s linear;
@@ -11,5 +12,98 @@
         to {
             transform: rotate(360deg);
         }
+    }
+    label{
+
+        font-size: 1em;
+
+    }
+    input{
+        border-radius: 1rem;
+        border-color: #ebebf4;
+        height: 30px;
+        background-color : ghostwhite;
+    }
+    form{
+        width:100%;
+    }
+    input:focus{
+        border-color: #242526;
+        width: 100%;
+    }
+    body{
+        background-color: #ebebf4;
+        font-family: 'Roboto', sans-serif;
+    }
+    div{
+        display: block;
+    }
+    .form-control{
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .form-cover{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: ghostwhite;
+        padding: 2% 1%;
+        width: 20%;
+    }
+    .form-cover img{
+        width: 180px;
+    }
+    .form-input{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: flex-start;
+        width: 100%;
+        margin: 5% 0%;
+    }
+    .error{
+        color: red;
+        display: flex;
+        align-self: flex-start;
+        font-size: 0.2em;
+    }
+    .button-form{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+    .button-sky{
+        background-color: deepskyblue;
+        border-color: deepskyblue;
+        text-align: center;
+        padding: 10px 40px;
+        border-radius: 5px;
+        color: white;
+    }
+    .register-form {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        justify-content: space-between;
+        align-self: flex-start;
+        font-size: 0.5em;
+        margin: 5% 0 0 0;
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:link{
+        color: deepskyblue ;
+    }
+    a:visited {
+        color: deepskyblue;
+    }
+    a:hover{
+        text-decoration: underline;
     }
 }
